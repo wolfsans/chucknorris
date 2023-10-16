@@ -4,10 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chuck Norris Joke Page</title>
+  <title>Pagina de Piadas do Chuck Norris</title>
 
   <style>
-    /* Estilo para melhor apresentação dos dados */
     body {
       font-family: Arial, sans-serif;
       background-color: #f4f4f4;
@@ -16,7 +15,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      flex-direction: column; /* Alteração aqui para column */
+      flex-direction: column; 
       min-height: 100vh;
     }
 
@@ -46,7 +45,7 @@
       cursor: pointer;
     }
 
-    /* Alteração aqui para incluir o estilo do footer */
+   
     footer {
       font-family: Arial, sans-serif;
       background-color: #f4f4f4;
@@ -67,22 +66,22 @@
       <h1>Chuck Norris Joke</h1>
       <img id="jokeIcon" src="chucknorris_logo_coloured_small@2x.png" alt="Chuck Norris Icon">
       <p id="randomJoke"></p>
-      <button onclick="getRandomChuckNorrisJoke()">Get me a new one</button>
+      <button onclick="getRandomChuckNorrisJoke()">Nova Piada</button>
     </div>
 
     <!-- Seção 2: Piada por Categoria -->
     <div class="section">
-      <h1>Chuck Norris Joke by Category</h1>
-      <label for="categorySelect">Select a category:</label>
+      <h1>Piada do Chuck Norris Por Categoria</h1>
+      <label for="categorySelect">Selecione a categoria:</label>
       <select id="categorySelect"></select>
       <p id="categoryJoke"></p>
-      <button onclick="getChuckNorrisJokeByCategory()">Get me a new one</button>
+      <button onclick="getChuckNorrisJokeByCategory()">Nova Piada</button>
     </div>
 
-    <!-- Seção 3: Pesquisa de Piadas -->
+    
     <div class="section">
-      <h1>Chuck Norris Joke App</h1>
-      <label for="searchQuery">Search for a joke:</label>
+      <h1>Piadas do Chuck Norris</h1>
+      <label for="searchQuery">Procure uma Piada:</label>
       <input type="text" id="searchQuery">
       <button onclick="searchChuckNorrisJoke()">Search</button>
       <p id="searchJoke"></p>
